@@ -33,3 +33,10 @@ createdat: string (Time ISO Format)
 
 
 # How I approached filtering and aggregation 
+
+Filtering - 
+I would filter by status key, declined / success 
+Filter by cardBrand (with status key) 
+
+Aggregation - 
+I would aggregate by grouping of cardbrand, with success and group by the time 
