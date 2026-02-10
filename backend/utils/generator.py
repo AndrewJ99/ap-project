@@ -17,7 +17,7 @@ for i in range(50):
         "cardBrand": random.choice(card_brands),
         "status": status,
         "declineReasonCode": random.choice(decline_codes) if status == "Declined" else None,
-        "transactionDate": (datetime.now() - timedelta(days=random.randint(0, 60))).isoformat()
+        "transactionDate": (datetime.now().replace(microsecond=0) - timedelta(days=random.randint(0, 60))).isoformat()
     }
     transactions.append(transaction)
 
