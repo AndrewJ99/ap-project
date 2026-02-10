@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Merchant Transactions</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Merchant Transactions Dashboard</h1>
+
+  <section>
+    <h2>Filters</h2>
+
+    <label>
+      Card Brand:
+      <select id="cardBrand">
+        <option value="">All</option>
+        <option>Visa</option>
+        <option>Mastercard</option>
+        <option>Amex</option>
+        <option>Discover</option>
+      </select>
+    </label>
+
+    <label>
+      Status:
+      <select id="status">
+        <option value="">All</option>
+        <option>Approved</option>
+        <option>Declined</option>
+      </select>
+    </label>
+
+    <label id="declineReasonContainer" style="display:none;">
+      Decline Reason:
+      <select id="declineReasonCode">
+        <option value="">All</option>
+        <option value="01">01 - Insufficient funds</option>
+        <option value="02">02 - Invalid card</option>
+        <option value="03">03 - Suspected fraud</option>
+      </select>
+    </label>
+
+    <button id="applyFilters">Apply Filters</button>
+  </section>
+
+  <section>
+    <h2>Month-to-Date Summary</h2>
+    <pre id="mtdSummary">Loading...</pre>
+  </section>
+
+  <section>
+    <h2>Month-by-Month Summary</h2>
+    <pre id="monthlySummary">Loading...</pre>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
