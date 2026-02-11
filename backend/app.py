@@ -15,7 +15,9 @@ CORS(app)
 
 def load_transactions():
     with open("data/transactions.json") as f:
-        return json.load(f)
+        data = json.load(f)
+        print(f"[DATA] Loaded {len(data)} transactions from transactions.json")
+        return data
 
 
 register_transaction_routes(
@@ -27,4 +29,5 @@ register_transaction_routes(
 )
 
 if __name__ == "__main__":
+    print("[SERVER] Starting on http://localhost:5000")
     app.run(debug=True)

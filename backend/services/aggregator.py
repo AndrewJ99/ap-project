@@ -14,12 +14,14 @@ def filter_transactions(transactions, cardBrand=None, status=None, declineReason
                 continue
         result.append(t)
 
+    print(f"[FILTER] {len(transactions)} transactions -> {len(result)} matched")
     return result
 
 
 def mtd_summary(transactions, cardBrand=None, status=None, declineReasonCode=None):
     """Calculate month-to-date summary with optional filtering."""
     now = datetime.now()
+    print(f"[MTD] Calculating summary for {now.strftime('%B %Y')}")
     month_txns = []
 
     # Filter to current month first
@@ -64,11 +66,13 @@ def mtd_summary(transactions, cardBrand=None, status=None, declineReasonCode=Non
     summary["approvedAmount"] = round(summary["approvedAmount"], 2)
     summary["declinedAmount"] = round(summary["declinedAmount"], 2)
 
+    print(f"[MTD] Result: {summary['totalTransactions']} txns, {summary['totalApproved']} approved, {summary['totalDeclined']} declined")
     return summary
 
 
 def month_by_month_summary(transactions, cardBrand=None, status=None, declineReasonCode=None):
     """Calculate month-by-month summary with optional filtering."""
+    print("[MONTHLY] Calculating month-by-month summary")
     # Apply filters if provided
     if cardBrand or status or declineReasonCode:
         transactions = filter_transactions(transactions, cardBrand, status, declineReasonCode)
@@ -121,4 +125,5 @@ def month_by_month_summary(transactions, cardBrand=None, status=None, declineRea
         summary[display_key]["approvedAmount"] = round(summary[display_key]["approvedAmount"], 2)
         summary[display_key]["declinedAmount"] = round(summary[display_key]["declinedAmount"], 2)
 
+    print(f"[MONTHLY] Result: {len(summary)} months of data")
     return summary
