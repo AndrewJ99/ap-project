@@ -5,7 +5,7 @@ def register_transaction_routes(app, load_transactions, filter_transactions, mtd
     @app.route("/api/transactions")
     def get_transactions():
         print("----------------------------------------")
-        print("[API] GET /api/transactions")
+        print("*** [API] GET /api/transactions ***")
         cardBrand = request.args.get("cardBrand")
         status = request.args.get("status")
         declineReasonCode = request.args.get("declineReasonCode")
@@ -25,7 +25,7 @@ def register_transaction_routes(app, load_transactions, filter_transactions, mtd
 
     @app.route("/api/summary/mtd")
     def get_mtd_summary():
-        print("----------------------------------------")
+        print("\n\n--------------------Month to Date--------------------")
         print("[API] GET /api/summary/mtd")
         cardBrand = request.args.get("cardBrand")
         status = request.args.get("status")
@@ -44,7 +44,7 @@ def register_transaction_routes(app, load_transactions, filter_transactions, mtd
 
     @app.route("/api/summary/monthly")
     def get_monthly_summary():
-        print("----------------------------------------")
+        print("-------------------Monthly---------------------\n")
         print("[API] GET /api/summary/monthly")
         cardBrand = request.args.get("cardBrand")
         status = request.args.get("status")

@@ -1,5 +1,11 @@
 const API_BASE = "http://127.0.0.1:5000/api";
 
+// Set current month in MTD heading
+const monthNames = ["January", "February", "March", "April", "May", "June",
+  "July", "August", "September", "October", "November", "December"];
+const now = new Date();
+document.getElementById("mtdMonth").textContent = `(${monthNames[now.getMonth()]} ${now.getFullYear()})`;
+
 // DOM Elements
 const cardBrandEl = document.getElementById("cardBrand");
 const statusEl = document.getElementById("status");

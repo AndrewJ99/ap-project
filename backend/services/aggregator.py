@@ -66,7 +66,7 @@ def mtd_summary(transactions, cardBrand=None, status=None, declineReasonCode=Non
     summary["approvedAmount"] = round(summary["approvedAmount"], 2)
     summary["declinedAmount"] = round(summary["declinedAmount"], 2)
 
-    print(f"[MTD] Result: {summary['totalTransactions']} txns, {summary['totalApproved']} approved, {summary['totalDeclined']} declined")
+    print(f"[MTD] Result: {summary['totalTransactions']} totalTransactions, {summary['totalApproved']} approved, {summary['totalDeclined']} declined")
     return summary
 
 

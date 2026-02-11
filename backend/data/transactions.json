@@ -1,452 +1,902 @@
 [
   {
-    "transactionId": "T1000",
-    "merchantId": "M4",
-    "amount": 184.94,
-    "cardBrand": "Visa",
-    "status": "Approved",
-    "declineReasonCode": null,
-    "transactionDate": "2025-12-31T23:54:40"
-  },
-  {
-    "transactionId": "T1001",
-    "merchantId": "M1",
-    "amount": 355.92,
-    "cardBrand": "Discover",
-    "status": "Approved",
-    "declineReasonCode": null,
-    "transactionDate": "2026-01-07T23:54:40"
-  },
-  {
-    "transactionId": "T1002",
-    "merchantId": "M5",
-    "amount": 301.16,
-    "cardBrand": "Mastercard",
-    "status": "Declined",
-    "declineReasonCode": "01",
-    "transactionDate": "2026-01-10T23:54:40"
-  },
-  {
-    "transactionId": "T1003",
-    "merchantId": "M1",
-    "amount": 270.65,
-    "cardBrand": "Visa",
-    "status": "Declined",
-    "declineReasonCode": "02",
-    "transactionDate": "2026-01-04T23:54:40"
-  },
-  {
-    "transactionId": "T1004",
-    "merchantId": "M2",
-    "amount": 244.5,
-    "cardBrand": "Visa",
-    "status": "Approved",
-    "declineReasonCode": null,
-    "transactionDate": "2026-01-19T23:54:40"
-  },
-  {
-    "transactionId": "T1005",
-    "merchantId": "M2",
-    "amount": 452.11,
-    "cardBrand": "Discover",
-    "status": "Declined",
-    "declineReasonCode": "02",
-    "transactionDate": "2025-12-13T23:54:40"
-  },
-  {
-    "transactionId": "T1006",
+    "transactionId": "T6823-7164-1532534",
     "merchantId": "M3",
-    "amount": 416.19,
-    "cardBrand": "Discover",
+    "amount": 21.66,
+    "cardBrand": "Visa",
     "status": "Approved",
     "declineReasonCode": null,
-    "transactionDate": "2025-12-27T23:54:40"
+    "transactionDate": "2025-03-26T23:23:49"
   },
   {
-    "transactionId": "T1007",
-    "merchantId": "M1",
-    "amount": 122.27,
+    "transactionId": "T7232-5667-8411754",
+    "merchantId": "M4",
+    "amount": 352.13,
     "cardBrand": "Mastercard",
     "status": "Declined",
     "declineReasonCode": "02",
-    "transactionDate": "2026-01-10T23:54:40"
+    "transactionDate": "2025-06-05T23:23:49"
   },
   {
-    "transactionId": "T1008",
+    "transactionId": "T2659-6763-2436922",
+    "merchantId": "M4",
+    "amount": 177.81,
+    "cardBrand": "Visa",
+    "status": "Declined",
+    "declineReasonCode": "03",
+    "transactionDate": "2025-08-13T23:23:49"
+  },
+  {
+    "transactionId": "T2667-6572-9739756",
     "merchantId": "M5",
-    "amount": 434.58,
-    "cardBrand": "Discover",
-    "status": "Approved",
-    "declineReasonCode": null,
-    "transactionDate": "2026-01-08T23:54:40"
+    "amount": 466.87,
+    "cardBrand": "Visa",
+    "status": "Declined",
+    "declineReasonCode": "03",
+    "transactionDate": "2025-02-20T23:23:49"
   },
   {
-    "transactionId": "T1009",
-    "merchantId": "M2",
-    "amount": 432.82,
+    "transactionId": "T2479-3875-4453449",
+    "merchantId": "M3",
+    "amount": 423.5,
     "cardBrand": "Visa",
     "status": "Approved",
     "declineReasonCode": null,
-    "transactionDate": "2026-01-04T23:54:40"
+    "transactionDate": "2025-07-12T23:23:49"
   },
   {
-    "transactionId": "T1010",
+    "transactionId": "T3847-7664-4996021",
     "merchantId": "M1",
-    "amount": 285.9,
-    "cardBrand": "Discover",
-    "status": "Approved",
-    "declineReasonCode": null,
-    "transactionDate": "2025-12-29T23:54:40"
-  },
-  {
-    "transactionId": "T1011",
-    "merchantId": "M4",
-    "amount": 178.88,
-    "cardBrand": "Discover",
-    "status": "Approved",
-    "declineReasonCode": null,
-    "transactionDate": "2026-01-25T23:54:40"
-  },
-  {
-    "transactionId": "T1012",
-    "merchantId": "M2",
-    "amount": 217.29,
+    "amount": 21.11,
     "cardBrand": "Mastercard",
     "status": "Declined",
-    "declineReasonCode": "01",
-    "transactionDate": "2026-01-18T23:54:40"
+    "declineReasonCode": "02",
+    "transactionDate": "2025-05-12T23:23:49"
   },
   {
-    "transactionId": "T1013",
+    "transactionId": "T5150-1838-9050354",
     "merchantId": "M3",
-    "amount": 378.15,
+    "amount": 335.37,
     "cardBrand": "Visa",
-    "status": "Declined",
-    "declineReasonCode": "01",
-    "transactionDate": "2026-01-25T23:54:40"
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-05-19T23:23:49"
   },
   {
-    "transactionId": "T1014",
+    "transactionId": "T4689-9038-1147375",
     "merchantId": "M2",
-    "amount": 365.5,
+    "amount": 244.86,
     "cardBrand": "Amex",
     "status": "Declined",
     "declineReasonCode": "03",
-    "transactionDate": "2026-01-18T23:54:40"
+    "transactionDate": "2025-09-04T23:23:49"
   },
   {
-    "transactionId": "T1015",
-    "merchantId": "M1",
-    "amount": 140.96,
-    "cardBrand": "Mastercard",
-    "status": "Approved",
-    "declineReasonCode": null,
-    "transactionDate": "2025-12-24T23:54:40"
-  },
-  {
-    "transactionId": "T1016",
-    "merchantId": "M4",
-    "amount": 192.11,
-    "cardBrand": "Discover",
-    "status": "Approved",
-    "declineReasonCode": null,
-    "transactionDate": "2026-01-08T23:54:40"
-  },
-  {
-    "transactionId": "T1017",
-    "merchantId": "M1",
-    "amount": 170.23,
-    "cardBrand": "Visa",
-    "status": "Approved",
-    "declineReasonCode": null,
-    "transactionDate": "2025-12-25T23:54:40"
-  },
-  {
-    "transactionId": "T1018",
+    "transactionId": "T7671-7152-4616166",
     "merchantId": "M3",
-    "amount": 10.87,
-    "cardBrand": "Discover",
-    "status": "Approved",
-    "declineReasonCode": null,
-    "transactionDate": "2026-01-20T23:54:40"
-  },
-  {
-    "transactionId": "T1019",
-    "merchantId": "M4",
-    "amount": 434.55,
-    "cardBrand": "Discover",
-    "status": "Declined",
-    "declineReasonCode": "03",
-    "transactionDate": "2025-12-21T23:54:40"
-  },
-  {
-    "transactionId": "T1020",
-    "merchantId": "M2",
-    "amount": 376.08,
-    "cardBrand": "Mastercard",
-    "status": "Declined",
-    "declineReasonCode": "01",
-    "transactionDate": "2026-01-04T23:54:40"
-  },
-  {
-    "transactionId": "T1021",
-    "merchantId": "M2",
-    "amount": 20.91,
-    "cardBrand": "Discover",
-    "status": "Declined",
-    "declineReasonCode": "02",
-    "transactionDate": "2026-02-01T23:54:40"
-  },
-  {
-    "transactionId": "T1022",
-    "merchantId": "M2",
-    "amount": 140.34,
-    "cardBrand": "Mastercard",
-    "status": "Declined",
-    "declineReasonCode": "02",
-    "transactionDate": "2026-01-25T23:54:40"
-  },
-  {
-    "transactionId": "T1023",
-    "merchantId": "M1",
-    "amount": 441.18,
-    "cardBrand": "Visa",
-    "status": "Declined",
-    "declineReasonCode": "03",
-    "transactionDate": "2026-01-30T23:54:40"
-  },
-  {
-    "transactionId": "T1024",
-    "merchantId": "M5",
-    "amount": 28.44,
-    "cardBrand": "Amex",
-    "status": "Declined",
-    "declineReasonCode": "02",
-    "transactionDate": "2025-12-21T23:54:40"
-  },
-  {
-    "transactionId": "T1025",
-    "merchantId": "M5",
-    "amount": 102.78,
-    "cardBrand": "Discover",
-    "status": "Approved",
-    "declineReasonCode": null,
-    "transactionDate": "2026-02-09T23:54:40"
-  },
-  {
-    "transactionId": "T1026",
-    "merchantId": "M1",
-    "amount": 87.9,
-    "cardBrand": "Visa",
-    "status": "Declined",
-    "declineReasonCode": "01",
-    "transactionDate": "2025-12-25T23:54:40"
-  },
-  {
-    "transactionId": "T1027",
-    "merchantId": "M1",
-    "amount": 228.59,
-    "cardBrand": "Mastercard",
-    "status": "Approved",
-    "declineReasonCode": null,
-    "transactionDate": "2025-12-31T23:54:40"
-  },
-  {
-    "transactionId": "T1028",
-    "merchantId": "M4",
-    "amount": 42.51,
-    "cardBrand": "Visa",
-    "status": "Declined",
-    "declineReasonCode": "03",
-    "transactionDate": "2026-02-04T23:54:40"
-  },
-  {
-    "transactionId": "T1029",
-    "merchantId": "M5",
-    "amount": 363.09,
+    "amount": 410.46,
     "cardBrand": "Amex",
     "status": "Declined",
     "declineReasonCode": "01",
-    "transactionDate": "2026-02-02T23:54:40"
+    "transactionDate": "2025-06-03T23:23:49"
   },
   {
-    "transactionId": "T1030",
+    "transactionId": "T9352-1742-1499677",
+    "merchantId": "M1",
+    "amount": 84.46,
+    "cardBrand": "Mastercard",
+    "status": "Declined",
+    "declineReasonCode": "03",
+    "transactionDate": "2025-03-11T23:23:49"
+  },
+  {
+    "transactionId": "T2547-1486-3130107",
+    "merchantId": "M3",
+    "amount": 257.84,
+    "cardBrand": "Visa",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2026-01-17T23:23:49"
+  },
+  {
+    "transactionId": "T1904-4218-1220763",
+    "merchantId": "M3",
+    "amount": 26.79,
+    "cardBrand": "Visa",
+    "status": "Declined",
+    "declineReasonCode": "03",
+    "transactionDate": "2025-04-20T23:23:49"
+  },
+  {
+    "transactionId": "T4796-9979-7979355",
+    "merchantId": "M4",
+    "amount": 137.59,
+    "cardBrand": "Mastercard",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-10-03T23:23:49"
+  },
+  {
+    "transactionId": "T5666-6909-8183730",
     "merchantId": "M5",
-    "amount": 220.03,
+    "amount": 73.59,
+    "cardBrand": "Visa",
+    "status": "Declined",
+    "declineReasonCode": "01",
+    "transactionDate": "2026-01-01T23:23:49"
+  },
+  {
+    "transactionId": "T1241-7516-2514986",
+    "merchantId": "M5",
+    "amount": 207.85,
+    "cardBrand": "Visa",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-02-23T23:23:49"
+  },
+  {
+    "transactionId": "T9286-4700-7234405",
+    "merchantId": "M1",
+    "amount": 459.67,
+    "cardBrand": "Amex",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-12-06T23:23:49"
+  },
+  {
+    "transactionId": "T6930-6630-8478676",
+    "merchantId": "M2",
+    "amount": 14.36,
+    "cardBrand": "Discover",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-05-18T23:23:49"
+  },
+  {
+    "transactionId": "T8351-4182-3146833",
+    "merchantId": "M4",
+    "amount": 399.11,
+    "cardBrand": "Mastercard",
+    "status": "Declined",
+    "declineReasonCode": "02",
+    "transactionDate": "2025-10-23T23:23:49"
+  },
+  {
+    "transactionId": "T5341-8819-1671039",
+    "merchantId": "M1",
+    "amount": 354.84,
+    "cardBrand": "Mastercard",
+    "status": "Declined",
+    "declineReasonCode": "02",
+    "transactionDate": "2025-05-15T23:23:49"
+  },
+  {
+    "transactionId": "T2455-4588-4722737",
+    "merchantId": "M1",
+    "amount": 205.48,
+    "cardBrand": "Visa",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-08-20T23:23:49"
+  },
+  {
+    "transactionId": "T3626-4955-2665336",
+    "merchantId": "M4",
+    "amount": 423.78,
+    "cardBrand": "Amex",
+    "status": "Declined",
+    "declineReasonCode": "01",
+    "transactionDate": "2025-08-23T23:23:49"
+  },
+  {
+    "transactionId": "T9163-1083-8559143",
+    "merchantId": "M4",
+    "amount": 177.96,
+    "cardBrand": "Amex",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-03-22T23:23:49"
+  },
+  {
+    "transactionId": "T9204-2242-5604819",
+    "merchantId": "M4",
+    "amount": 381.93,
+    "cardBrand": "Mastercard",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-08-18T23:23:49"
+  },
+  {
+    "transactionId": "T9946-5271-1922243",
+    "merchantId": "M5",
+    "amount": 442.92,
+    "cardBrand": "Discover",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-02-20T23:23:49"
+  },
+  {
+    "transactionId": "T4273-1120-4655051",
+    "merchantId": "M1",
+    "amount": 216.18,
+    "cardBrand": "Mastercard",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2026-02-07T23:23:49"
+  },
+  {
+    "transactionId": "T3090-9997-1606049",
+    "merchantId": "M5",
+    "amount": 318.23,
+    "cardBrand": "Mastercard",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-11-26T23:23:49"
+  },
+  {
+    "transactionId": "T6394-5376-6968574",
+    "merchantId": "M1",
+    "amount": 254.21,
+    "cardBrand": "Mastercard",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-09-05T23:23:49"
+  },
+  {
+    "transactionId": "T4264-8683-7782354",
+    "merchantId": "M1",
+    "amount": 338.41,
     "cardBrand": "Discover",
     "status": "Declined",
     "declineReasonCode": "02",
-    "transactionDate": "2026-01-14T23:54:40"
+    "transactionDate": "2025-04-16T23:23:49"
   },
   {
-    "transactionId": "T1031",
-    "merchantId": "M3",
-    "amount": 485.04,
+    "transactionId": "T3559-7145-8842998",
+    "merchantId": "M1",
+    "amount": 256.4,
     "cardBrand": "Visa",
     "status": "Approved",
     "declineReasonCode": null,
-    "transactionDate": "2026-01-26T23:54:40"
+    "transactionDate": "2025-09-12T23:23:49"
   },
   {
-    "transactionId": "T1032",
-    "merchantId": "M2",
-    "amount": 210.63,
-    "cardBrand": "Discover",
-    "status": "Approved",
-    "declineReasonCode": null,
-    "transactionDate": "2026-01-03T23:54:40"
-  },
-  {
-    "transactionId": "T1033",
-    "merchantId": "M2",
-    "amount": 266.59,
-    "cardBrand": "Mastercard",
-    "status": "Approved",
-    "declineReasonCode": null,
-    "transactionDate": "2026-01-21T23:54:40"
-  },
-  {
-    "transactionId": "T1034",
+    "transactionId": "T7197-6482-1012514",
     "merchantId": "M1",
-    "amount": 132.58,
+    "amount": 229.03,
     "cardBrand": "Amex",
     "status": "Declined",
     "declineReasonCode": "03",
-    "transactionDate": "2025-12-21T23:54:40"
+    "transactionDate": "2025-02-22T23:23:49"
   },
   {
-    "transactionId": "T1035",
-    "merchantId": "M2",
-    "amount": 373.25,
+    "transactionId": "T8851-9924-9384771",
+    "merchantId": "M1",
+    "amount": 16.28,
     "cardBrand": "Visa",
     "status": "Declined",
-    "declineReasonCode": "03",
-    "transactionDate": "2025-12-13T23:54:40"
+    "declineReasonCode": "02",
+    "transactionDate": "2026-01-17T23:23:49"
   },
   {
-    "transactionId": "T1036",
+    "transactionId": "T9550-4698-7075828",
+    "merchantId": "M3",
+    "amount": 454.78,
+    "cardBrand": "Discover",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2026-01-19T23:23:49"
+  },
+  {
+    "transactionId": "T8051-5746-4329436",
+    "merchantId": "M3",
+    "amount": 81.09,
+    "cardBrand": "Visa",
+    "status": "Declined",
+    "declineReasonCode": "02",
+    "transactionDate": "2025-10-08T23:23:49"
+  },
+  {
+    "transactionId": "T4033-3299-1071154",
     "merchantId": "M1",
-    "amount": 266.36,
-    "cardBrand": "Discover",
-    "status": "Approved",
-    "declineReasonCode": null,
-    "transactionDate": "2026-01-31T23:54:40"
-  },
-  {
-    "transactionId": "T1037",
-    "merchantId": "M5",
-    "amount": 439.66,
-    "cardBrand": "Discover",
-    "status": "Approved",
-    "declineReasonCode": null,
-    "transactionDate": "2025-12-20T23:54:40"
-  },
-  {
-    "transactionId": "T1038",
-    "merchantId": "M5",
-    "amount": 413.34,
-    "cardBrand": "Visa",
-    "status": "Approved",
-    "declineReasonCode": null,
-    "transactionDate": "2025-12-15T23:54:40"
-  },
-  {
-    "transactionId": "T1039",
-    "merchantId": "M4",
-    "amount": 236.54,
-    "cardBrand": "Visa",
+    "amount": 414.38,
+    "cardBrand": "Amex",
     "status": "Declined",
     "declineReasonCode": "01",
-    "transactionDate": "2026-01-25T23:54:40"
+    "transactionDate": "2026-01-08T23:23:49"
   },
   {
-    "transactionId": "T1040",
+    "transactionId": "T2070-4807-8179049",
     "merchantId": "M5",
-    "amount": 196.18,
+    "amount": 172.41,
+    "cardBrand": "Discover",
+    "status": "Declined",
+    "declineReasonCode": "03",
+    "transactionDate": "2025-07-03T23:23:49"
+  },
+  {
+    "transactionId": "T3460-5520-6627130",
+    "merchantId": "M5",
+    "amount": 449.78,
+    "cardBrand": "Amex",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2026-01-22T23:23:49"
+  },
+  {
+    "transactionId": "T1118-7428-2483724",
+    "merchantId": "M1",
+    "amount": 258.29,
+    "cardBrand": "Mastercard",
+    "status": "Declined",
+    "declineReasonCode": "01",
+    "transactionDate": "2025-11-02T23:23:49"
+  },
+  {
+    "transactionId": "T3397-6702-9873876",
+    "merchantId": "M5",
+    "amount": 250.71,
+    "cardBrand": "Discover",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-06-24T23:23:49"
+  },
+  {
+    "transactionId": "T5490-1175-8790065",
+    "merchantId": "M4",
+    "amount": 348.59,
+    "cardBrand": "Visa",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-07-01T23:23:49"
+  },
+  {
+    "transactionId": "T1954-8259-8620726",
+    "merchantId": "M1",
+    "amount": 425.26,
+    "cardBrand": "Amex",
+    "status": "Declined",
+    "declineReasonCode": "01",
+    "transactionDate": "2025-10-26T23:23:49"
+  },
+  {
+    "transactionId": "T3386-5970-3482045",
+    "merchantId": "M1",
+    "amount": 71.87,
+    "cardBrand": "Discover",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-10-27T23:23:49"
+  },
+  {
+    "transactionId": "T3137-6407-3237203",
+    "merchantId": "M3",
+    "amount": 256.11,
+    "cardBrand": "Amex",
+    "status": "Declined",
+    "declineReasonCode": "02",
+    "transactionDate": "2025-11-20T23:23:49"
+  },
+  {
+    "transactionId": "T1246-9930-8813568",
+    "merchantId": "M4",
+    "amount": 45.22,
+    "cardBrand": "Visa",
+    "status": "Declined",
+    "declineReasonCode": "02",
+    "transactionDate": "2025-04-11T23:23:49"
+  },
+  {
+    "transactionId": "T1933-7566-4402343",
+    "merchantId": "M3",
+    "amount": 259.58,
+    "cardBrand": "Discover",
+    "status": "Declined",
+    "declineReasonCode": "03",
+    "transactionDate": "2025-07-05T23:23:49"
+  },
+  {
+    "transactionId": "T4386-6992-7671311",
+    "merchantId": "M4",
+    "amount": 54.5,
+    "cardBrand": "Amex",
+    "status": "Declined",
+    "declineReasonCode": "02",
+    "transactionDate": "2025-02-14T23:23:49"
+  },
+  {
+    "transactionId": "T1639-3825-9809575",
+    "merchantId": "M5",
+    "amount": 274.96,
+    "cardBrand": "Discover",
+    "status": "Declined",
+    "declineReasonCode": "02",
+    "transactionDate": "2025-11-19T23:23:49"
+  },
+  {
+    "transactionId": "T1641-6553-8284615",
+    "merchantId": "M4",
+    "amount": 383.73,
+    "cardBrand": "Amex",
+    "status": "Declined",
+    "declineReasonCode": "01",
+    "transactionDate": "2025-05-05T23:23:49"
+  },
+  {
+    "transactionId": "T6591-6011-7174615",
+    "merchantId": "M4",
+    "amount": 221.22,
+    "cardBrand": "Mastercard",
+    "status": "Declined",
+    "declineReasonCode": "03",
+    "transactionDate": "2025-06-09T23:23:49"
+  },
+  {
+    "transactionId": "T5204-9528-7746872",
+    "merchantId": "M5",
+    "amount": 478.25,
     "cardBrand": "Mastercard",
     "status": "Approved",
     "declineReasonCode": null,
-    "transactionDate": "2025-12-28T23:54:40"
+    "transactionDate": "2025-12-28T23:23:49"
   },
   {
-    "transactionId": "T1041",
+    "transactionId": "T7991-8046-8444019",
     "merchantId": "M3",
-    "amount": 204.06,
+    "amount": 403.81,
+    "cardBrand": "Amex",
+    "status": "Declined",
+    "declineReasonCode": "02",
+    "transactionDate": "2025-06-30T23:23:49"
+  },
+  {
+    "transactionId": "T7218-5777-5555211",
+    "merchantId": "M1",
+    "amount": 497.53,
+    "cardBrand": "Visa",
+    "status": "Declined",
+    "declineReasonCode": "01",
+    "transactionDate": "2025-02-24T23:23:49"
+  },
+  {
+    "transactionId": "T2425-2924-2297229",
+    "merchantId": "M5",
+    "amount": 333.87,
+    "cardBrand": "Amex",
+    "status": "Declined",
+    "declineReasonCode": "01",
+    "transactionDate": "2025-08-13T23:23:49"
+  },
+  {
+    "transactionId": "T3663-2510-8880053",
+    "merchantId": "M2",
+    "amount": 79.97,
+    "cardBrand": "Amex",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2026-02-08T23:23:49"
+  },
+  {
+    "transactionId": "T9489-3967-3851715",
+    "merchantId": "M2",
+    "amount": 435.57,
+    "cardBrand": "Visa",
+    "status": "Declined",
+    "declineReasonCode": "01",
+    "transactionDate": "2025-08-16T23:23:49"
+  },
+  {
+    "transactionId": "T7467-2844-8754932",
+    "merchantId": "M4",
+    "amount": 190.39,
+    "cardBrand": "Mastercard",
+    "status": "Declined",
+    "declineReasonCode": "01",
+    "transactionDate": "2025-12-10T23:23:49"
+  },
+  {
+    "transactionId": "T9216-1317-2590181",
+    "merchantId": "M4",
+    "amount": 61.03,
+    "cardBrand": "Mastercard",
+    "status": "Declined",
+    "declineReasonCode": "02",
+    "transactionDate": "2025-05-07T23:23:49"
+  },
+  {
+    "transactionId": "T7750-8678-2410132",
+    "merchantId": "M3",
+    "amount": 211.45,
+    "cardBrand": "Mastercard",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-05-31T23:23:49"
+  },
+  {
+    "transactionId": "T9478-1592-2440508",
+    "merchantId": "M2",
+    "amount": 16.62,
+    "cardBrand": "Visa",
+    "status": "Declined",
+    "declineReasonCode": "01",
+    "transactionDate": "2025-12-05T23:23:49"
+  },
+  {
+    "transactionId": "T6714-4793-4096373",
+    "merchantId": "M2",
+    "amount": 43.84,
+    "cardBrand": "Mastercard",
+    "status": "Declined",
+    "declineReasonCode": "01",
+    "transactionDate": "2025-10-29T23:23:49"
+  },
+  {
+    "transactionId": "T4297-5028-1391511",
+    "merchantId": "M2",
+    "amount": 345.14,
+    "cardBrand": "Discover",
+    "status": "Declined",
+    "declineReasonCode": "01",
+    "transactionDate": "2025-06-29T23:23:49"
+  },
+  {
+    "transactionId": "T4005-6930-4669849",
+    "merchantId": "M1",
+    "amount": 324.32,
+    "cardBrand": "Amex",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-05-22T23:23:49"
+  },
+  {
+    "transactionId": "T2822-2135-1183608",
+    "merchantId": "M3",
+    "amount": 146.85,
+    "cardBrand": "Visa",
+    "status": "Declined",
+    "declineReasonCode": "01",
+    "transactionDate": "2025-12-22T23:23:49"
+  },
+  {
+    "transactionId": "T6945-9137-3879567",
+    "merchantId": "M1",
+    "amount": 497.05,
+    "cardBrand": "Visa",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-04-15T23:23:49"
+  },
+  {
+    "transactionId": "T3347-6925-3453112",
+    "merchantId": "M2",
+    "amount": 90.44,
+    "cardBrand": "Visa",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-08-16T23:23:49"
+  },
+  {
+    "transactionId": "T6120-2952-4532485",
+    "merchantId": "M5",
+    "amount": 386.08,
+    "cardBrand": "Discover",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-06-04T23:23:49"
+  },
+  {
+    "transactionId": "T1786-7494-7279959",
+    "merchantId": "M1",
+    "amount": 34.2,
+    "cardBrand": "Visa",
+    "status": "Declined",
+    "declineReasonCode": "03",
+    "transactionDate": "2025-06-21T23:23:49"
+  },
+  {
+    "transactionId": "T5540-4862-5177722",
+    "merchantId": "M5",
+    "amount": 341.48,
+    "cardBrand": "Amex",
+    "status": "Declined",
+    "declineReasonCode": "01",
+    "transactionDate": "2025-05-18T23:23:49"
+  },
+  {
+    "transactionId": "T7925-2799-5719327",
+    "merchantId": "M5",
+    "amount": 174.86,
+    "cardBrand": "Amex",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-03-31T23:23:49"
+  },
+  {
+    "transactionId": "T8790-8132-8532444",
+    "merchantId": "M5",
+    "amount": 164.46,
+    "cardBrand": "Amex",
+    "status": "Declined",
+    "declineReasonCode": "01",
+    "transactionDate": "2025-06-01T23:23:49"
+  },
+  {
+    "transactionId": "T5765-1698-7608754",
+    "merchantId": "M1",
+    "amount": 328.17,
+    "cardBrand": "Mastercard",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-03-01T23:23:49"
+  },
+  {
+    "transactionId": "T1539-7021-3043666",
+    "merchantId": "M1",
+    "amount": 417.48,
+    "cardBrand": "Mastercard",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2026-01-14T23:23:49"
+  },
+  {
+    "transactionId": "T1297-9550-1326629",
+    "merchantId": "M2",
+    "amount": 484.48,
+    "cardBrand": "Visa",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2026-01-28T23:23:49"
+  },
+  {
+    "transactionId": "T2134-6300-9248723",
+    "merchantId": "M5",
+    "amount": 487.79,
+    "cardBrand": "Amex",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-07-13T23:23:49"
+  },
+  {
+    "transactionId": "T4471-5434-1741680",
+    "merchantId": "M1",
+    "amount": 143.87,
+    "cardBrand": "Discover",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-04-09T23:23:49"
+  },
+  {
+    "transactionId": "T4720-3391-4672326",
+    "merchantId": "M2",
+    "amount": 461.28,
     "cardBrand": "Amex",
     "status": "Declined",
     "declineReasonCode": "03",
-    "transactionDate": "2025-12-19T23:54:40"
+    "transactionDate": "2025-10-06T23:23:49"
   },
   {
-    "transactionId": "T1042",
+    "transactionId": "T8461-9403-5982287",
+    "merchantId": "M4",
+    "amount": 254.76,
+    "cardBrand": "Mastercard",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-03-30T23:23:49"
+  },
+  {
+    "transactionId": "T1568-9264-2538272",
     "merchantId": "M1",
-    "amount": 289.87,
+    "amount": 43.41,
+    "cardBrand": "Amex",
+    "status": "Declined",
+    "declineReasonCode": "02",
+    "transactionDate": "2025-09-02T23:23:49"
+  },
+  {
+    "transactionId": "T1784-6810-6079831",
+    "merchantId": "M5",
+    "amount": 352.13,
+    "cardBrand": "Discover",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-11-26T23:23:49"
+  },
+  {
+    "transactionId": "T6681-9295-8561007",
+    "merchantId": "M5",
+    "amount": 442.24,
     "cardBrand": "Mastercard",
     "status": "Declined",
     "declineReasonCode": "01",
-    "transactionDate": "2026-01-28T23:54:40"
+    "transactionDate": "2026-01-23T23:23:49"
   },
   {
-    "transactionId": "T1043",
+    "transactionId": "T2426-3675-3800745",
     "merchantId": "M5",
-    "amount": 379.69,
+    "amount": 381.8,
     "cardBrand": "Discover",
     "status": "Declined",
-    "declineReasonCode": "03",
-    "transactionDate": "2026-02-05T23:54:40"
+    "declineReasonCode": "02",
+    "transactionDate": "2025-11-02T23:23:49"
   },
   {
-    "transactionId": "T1044",
-    "merchantId": "M3",
-    "amount": 306.0,
-    "cardBrand": "Discover",
+    "transactionId": "T6303-2130-2361683",
+    "merchantId": "M1",
+    "amount": 283.58,
+    "cardBrand": "Amex",
     "status": "Approved",
     "declineReasonCode": null,
-    "transactionDate": "2025-12-29T23:54:40"
+    "transactionDate": "2025-04-04T23:23:49"
   },
   {
-    "transactionId": "T1045",
-    "merchantId": "M2",
-    "amount": 63.64,
-    "cardBrand": "Visa",
-    "status": "Approved",
-    "declineReasonCode": null,
-    "transactionDate": "2026-01-01T23:54:40"
-  },
-  {
-    "transactionId": "T1046",
-    "merchantId": "M3",
-    "amount": 25.97,
-    "cardBrand": "Discover",
-    "status": "Approved",
-    "declineReasonCode": null,
-    "transactionDate": "2026-02-02T23:54:40"
-  },
-  {
-    "transactionId": "T1047",
-    "merchantId": "M5",
-    "amount": 307.05,
-    "cardBrand": "Mastercard",
-    "status": "Approved",
-    "declineReasonCode": null,
-    "transactionDate": "2026-01-13T23:54:40"
-  },
-  {
-    "transactionId": "T1048",
-    "merchantId": "M3",
-    "amount": 376.11,
-    "cardBrand": "Mastercard",
-    "status": "Approved",
-    "declineReasonCode": null,
-    "transactionDate": "2025-12-23T23:54:40"
-  },
-  {
-    "transactionId": "T1049",
+    "transactionId": "T6412-6259-7547717",
     "merchantId": "M4",
-    "amount": 370.71,
+    "amount": 468.75,
     "cardBrand": "Visa",
     "status": "Approved",
     "declineReasonCode": null,
-    "transactionDate": "2025-12-17T23:54:40"
+    "transactionDate": "2025-08-18T23:23:49"
+  },
+  {
+    "transactionId": "T6750-6656-5545262",
+    "merchantId": "M3",
+    "amount": 135.53,
+    "cardBrand": "Discover",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-03-08T23:23:49"
+  },
+  {
+    "transactionId": "T5305-7499-8548714",
+    "merchantId": "M3",
+    "amount": 307.99,
+    "cardBrand": "Discover",
+    "status": "Declined",
+    "declineReasonCode": "01",
+    "transactionDate": "2025-06-21T23:23:49"
+  },
+  {
+    "transactionId": "T8757-5770-8003424",
+    "merchantId": "M3",
+    "amount": 97.4,
+    "cardBrand": "Discover",
+    "status": "Declined",
+    "declineReasonCode": "01",
+    "transactionDate": "2025-03-16T23:23:49"
+  },
+  {
+    "transactionId": "T5375-6215-6015216",
+    "merchantId": "M3",
+    "amount": 279.16,
+    "cardBrand": "Visa",
+    "status": "Declined",
+    "declineReasonCode": "03",
+    "transactionDate": "2025-05-30T23:23:49"
+  },
+  {
+    "transactionId": "T4765-5016-7921673",
+    "merchantId": "M2",
+    "amount": 382.44,
+    "cardBrand": "Mastercard",
+    "status": "Declined",
+    "declineReasonCode": "03",
+    "transactionDate": "2025-06-09T23:23:49"
+  },
+  {
+    "transactionId": "T5013-8530-3541908",
+    "merchantId": "M3",
+    "amount": 484.15,
+    "cardBrand": "Visa",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-08-24T23:23:49"
+  },
+  {
+    "transactionId": "T8306-3540-7542259",
+    "merchantId": "M4",
+    "amount": 70.7,
+    "cardBrand": "Amex",
+    "status": "Declined",
+    "declineReasonCode": "01",
+    "transactionDate": "2025-02-25T23:23:49"
+  },
+  {
+    "transactionId": "T1448-8139-5848464",
+    "merchantId": "M4",
+    "amount": 182.37,
+    "cardBrand": "Mastercard",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-03-08T23:23:49"
+  },
+  {
+    "transactionId": "T9466-1163-3068903",
+    "merchantId": "M3",
+    "amount": 375.3,
+    "cardBrand": "Discover",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-11-12T23:23:49"
+  },
+  {
+    "transactionId": "T7011-9025-9589337",
+    "merchantId": "M5",
+    "amount": 222.69,
+    "cardBrand": "Visa",
+    "status": "Declined",
+    "declineReasonCode": "03",
+    "transactionDate": "2025-06-30T23:23:49"
+  },
+  {
+    "transactionId": "T7439-4549-5091567",
+    "merchantId": "M3",
+    "amount": 172.97,
+    "cardBrand": "Amex",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-12-01T23:23:49"
+  },
+  {
+    "transactionId": "T6635-4923-8619879",
+    "merchantId": "M5",
+    "amount": 440.39,
+    "cardBrand": "Amex",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-08-07T23:23:49"
+  },
+  {
+    "transactionId": "T3497-6424-5728703",
+    "merchantId": "M4",
+    "amount": 466.08,
+    "cardBrand": "Visa",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-12-15T23:23:49"
+  },
+  {
+    "transactionId": "T9973-8715-4961471",
+    "merchantId": "M1",
+    "amount": 332.01,
+    "cardBrand": "Mastercard",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-03-08T23:23:49"
+  },
+  {
+    "transactionId": "T9890-9401-8604726",
+    "merchantId": "M2",
+    "amount": 267.78,
+    "cardBrand": "Visa",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-12-29T23:23:49"
+  },
+  {
+    "transactionId": "T7692-9175-8807589",
+    "merchantId": "M4",
+    "amount": 300.11,
+    "cardBrand": "Amex",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-10-24T23:23:49"
+  },
+  {
+    "transactionId": "T6095-9738-1540787",
+    "merchantId": "M4",
+    "amount": 499.88,
+    "cardBrand": "Mastercard",
+    "status": "Declined",
+    "declineReasonCode": "01",
+    "transactionDate": "2025-07-06T23:23:49"
+  },
+  {
+    "transactionId": "T5548-6931-1890031",
+    "merchantId": "M3",
+    "amount": 299.62,
+    "cardBrand": "Amex",
+    "status": "Approved",
+    "declineReasonCode": null,
+    "transactionDate": "2025-04-25T23:23:49"
   }
 ]
