@@ -45,16 +45,23 @@
     <button id="applyFilters">Apply Filters</button>
   </section>
 
+  <!-- MTD Summary Cards -->
   <section>
     <h2>Month-to-Date Summary</h2>
-    <pre id="mtdSummary">Loading...</pre>
+    <div class="summary-cards" id="mtdCards">
+      <!-- Cards populated by JavaScript -->
+    </div>
   </section>
 
+  <!-- Monthly Bar Chart -->
   <section>
     <h2>Month-by-Month Summary</h2>
-    <pre id="monthlySummary">Loading...</pre>
+    <div class="chart-container">
+      <canvas id="monthlyChart"></canvas>
+    </div>
   </section>
 
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

@@ -21,12 +21,30 @@ def register_transaction_routes(app, load_transactions, filter_transactions, mtd
 
     @app.route("/api/summary/mtd")
     def get_mtd_summary():
-        return jsonify(mtd_summary(load_transactions()))
+        cardBrand = request.args.get("cardBrand")
+        status = request.args.get("status")
+        declineReasonCode = request.args.get("declineReasonCode")
+
+        return jsonify(mtd_summary(
+            load_transactions(),
+            cardBrand=cardBrand,
+            status=status,
+            declineReasonCode=declineReasonCode
+        ))
 
 
     @app.route("/api/summary/monthly")
     def get_monthly_summary():
-        return jsonify(month_by_month_summary(load_transactions()))
+        cardBrand = request.args.get("cardBrand")
+        status = request.args.get("status")
+        declineReasonCode = request.args.get("declineReasonCode")
+
+        return jsonify(month_by_month_summary(
+            load_transactions(),
+            cardBrand=cardBrand,
+            status=status,
+            declineReasonCode=declineReasonCode
+        ))
 
 
     @app.route("/api/health")
