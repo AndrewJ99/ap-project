@@ -40,6 +40,21 @@ python -m http.server 8080
 
 Then visit `http://localhost:8080`.
 
+## Running Tests
+
+```bash
+cd backend
+
+# Run all tests
+pytest tests/ -v
+
+# Run unit tests only (filter_transactions logic)
+pytest tests/test_aggregator.py -v
+
+# Run API integration tests only
+pytest tests/test_api.py -v
+```
+
 ## Features
 
 - **Data Retrieval** — API endpoint returning merchant transaction data (mock/generated)
