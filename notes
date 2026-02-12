@@ -46,4 +46,6 @@ Month-by-Month Summary:
 First applies filters to the full dataset, then group transactions by their year-month. Each month gets the same set of computed metric as the MTD summary. The results include a sortKey field (formatted as (YYY-MM)) so the frontend can sort months chronologically without having to parse display labels like "Jan 2025" 
 
 3. Tradeoffs I made: 
+One trade off I made was deciding the web framework to use while building this application, specifically the tradeoff between FlaskAPI and FastAPI. I chose Flask because it's the framework I'm most comfortable with and it let me move quickly within the 3-day window. FastAPI does have automatic request validation, and async support out of the box, but for a small synchronous API with three endpoints, those benefits didn't justify the learning curve tradeoff.
 
+Also ultimately deciding the backend to be in Python vs Javascript because Python has good libraries like pytest and I work well with python dictionaries 
