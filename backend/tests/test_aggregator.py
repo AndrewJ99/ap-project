@@ -67,13 +67,13 @@ class TestFilterTransactions:
         """Filter by Mastercard should return only Mastercard transactions."""
         result = filter_transactions(SAMPLE_TRANSACTIONS, cardBrand="Mastercard")
         assert len(result) == 1
-        assert result[0]["id"] == "2"
+        assert result[0]["transactionId"] == "T1000-1000-1000002"
 
     def test_filter_by_card_brand_amex(self):
         """Filter by Amex should return only Amex transactions."""
         result = filter_transactions(SAMPLE_TRANSACTIONS, cardBrand="Amex")
         assert len(result) == 1
-        assert result[0]["id"] == "4"
+        assert result[0]["transactionId"] == "T1000-1000-1000004"
 
     def test_filter_by_status_approved(self):
         """Filter by Approved status should return only approved transactions."""
@@ -92,20 +92,20 @@ class TestFilterTransactions:
         result = filter_transactions(
             SAMPLE_TRANSACTIONS,
             status="Declined",
-            declineReasonCode="INSUFFICIENT_FUNDS"
+            declineReasonCode="01" 
         )
         assert len(result) == 1
-        assert result[0]["id"] == "3"
+        assert result[0]["transactionId"] == "T1000-1000-1000003"
 
     def test_filter_by_decline_reason_card_expired(self):
         """Filter by CARD_EXPIRED decline reason."""
         result = filter_transactions(
             SAMPLE_TRANSACTIONS,
             status="Declined",
-            declineReasonCode="CARD_EXPIRED"
+            declineReasonCode="02"
         )
         assert len(result) == 2
-        assert all(t["declineReasonCode"] == "CARD_EXPIRED" for t in result)
+        assert all(t["declineReasonCode"] == "02" for t in result)
 
     def test_combined_filters_card_brand_and_status(self):
         """Filter by both card brand and status."""
@@ -123,10 +123,10 @@ class TestFilterTransactions:
             SAMPLE_TRANSACTIONS,
             cardBrand="Visa",
             status="Declined",
-            declineReasonCode="CARD_EXPIRED"
+            declineReasonCode="02"
         )
         assert len(result) == 1
-        assert result[0]["id"] == "5"
+        assert result[0]["transactionId"] == "T1000-1000-1000005"
 
     def test_empty_result_no_matches(self):
         """Filter that matches nothing should return empty list."""
@@ -144,7 +144,7 @@ class TestFilterTransactions:
         # When status is not "Declined", declineReasonCode is ignored
         result = filter_transactions(
             SAMPLE_TRANSACTIONS,
-            declineReasonCode="INSUFFICIENT_FUNDS"
+            declineReasonCode="01"
         )
         # Should return all transactions since status != "Declined"
         assert len(result) == 5
