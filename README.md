@@ -7,6 +7,10 @@ A full-stack application that retrieves merchant transaction data, processes it 
 - **Backend:** Python / Flask
 - **Frontend:** HTML, CSS, JavaScript (Vanilla)
 
+## Libraries Used
+- **Backend:** Flask, flask-cors, json, datetime, collections, pytest, random, os
+- **Frontend:** Chart.js
+
 ## Project Structure
 
 ```

@@ -44,7 +44,7 @@ def register_transaction_routes(app, load_transactions, filter_transactions, mtd
 
     @app.route("/api/summary/monthly")
     def get_monthly_summary():
-        print("-------------------Monthly---------------------\n")
+        print("-------------------Monthly---------------------")
         print("[API] GET /api/summary/monthly")
         cardBrand = request.args.get("cardBrand")
         status = request.args.get("status")
