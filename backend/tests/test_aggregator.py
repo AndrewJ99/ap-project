@@ -6,7 +6,7 @@ from services.aggregator import filter_transactions
 # Sample test data
 SAMPLE_TRANSACTIONS = [
     {
-        "id": "1",
+        "transactionId": "T1000-1000-1000001",
         "cardBrand": "Visa",
         "status": "Approved",
         "declineReasonCode": None,
@@ -14,7 +14,7 @@ SAMPLE_TRANSACTIONS = [
         "transactionDate": "2026-02-01T10:00:00"
     },
     {
-        "id": "2",
+        "transactionId": "T1000-1000-1000002",
         "cardBrand": "Mastercard",
         "status": "Approved",
         "declineReasonCode": None,
@@ -22,26 +22,26 @@ SAMPLE_TRANSACTIONS = [
         "transactionDate": "2026-02-02T11:00:00"
     },
     {
-        "id": "3",
+        "transactionId": "T1000-1000-1000003",
         "cardBrand": "Visa",
         "status": "Declined",
-        "declineReasonCode": "INSUFFICIENT_FUNDS",
+        "declineReasonCode": "01",
         "amount": 50.00,
         "transactionDate": "2026-02-03T12:00:00"
     },
     {
-        "id": "4",
+        "transactionId": "T1000-1000-1000004",
         "cardBrand": "Amex",
         "status": "Declined",
-        "declineReasonCode": "CARD_EXPIRED",
+        "declineReasonCode": "02",
         "amount": 75.00,
         "transactionDate": "2026-02-04T13:00:00"
     },
     {
-        "id": "5",
+        "transactionId": "T1000-1000-1000005",
         "cardBrand": "Visa",
         "status": "Declined",
-        "declineReasonCode": "CARD_EXPIRED",
+        "declineReasonCode": "02",
         "amount": 25.00,
         "transactionDate": "2026-02-05T14:00:00"
     },
